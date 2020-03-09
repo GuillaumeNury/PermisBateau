@@ -291,187 +291,178 @@ export const levels = [
     type: "text",
     question: "Anticyclone",
     solution: "Hautes pressions",
-    choices: ["Hautes pressions", "Basses pressions"],
+    choices: randomize(["Hautes pressions", "Basses pressions"]),
   },
   {
     type: "text",
     question: "Dépression",
     solution: "Basses pressions",
-    choices: ["Hautes pressions", "Basses pressions"],
+    choices: randomize(["Hautes pressions", "Basses pressions"]),
   },
   {
     type: "text",
     question: "Brise thermique",
     solution: "De jour vers la terre, de nuit vers la mer",
-    choices: [
+    choices: randomize([
       "De jour vers la terre, de nuit vers la mer",
       "De jour vers la mer, de nuit vers la terre",
-    ],
-  },
-  {
-    type: "text",
-    question: "Alphabet phonétique internationnal",
-    solution: "De jour vers la terre, de nuit vers la mer",
-    choices: [
-      "De jour vers la terre, de nuit vers la mer",
-      "De jour vers la mer, de nuit vers la terre",
-    ],
+    ]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - A",
     solution: "Alfa",
-    choices: ["Alfa", "Abricot", "Alhambra", "Albert"],
+    choices: randomize(["Alfa", "Abricot", "Alhambra", "Albert"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - B",
     solution: "Bravo",
-    choices: ["Bravo", "Banana", "Bruno", "Beta"],
+    choices: randomize(["Bravo", "Banana", "Bruno", "Beta"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - C",
     solution: "Charlie",
-    choices: ["Charlie", "Cross", "Christ", "Casino"],
+    choices: randomize(["Charlie", "Cross", "Christ", "Casino"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - D",
     solution: "Delta",
-    choices: ["Delta", "Dallas", "Druid", "Domino"],
+    choices: randomize(["Delta", "Dallas", "Druid", "Domino"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - E",
     solution: "Echo",
-    choices: ["Echo", "Elephant", "Epsilon", "Eclipse"],
+    choices: randomize(["Echo", "Elephant", "Epsilon", "Eclipse"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - F",
     solution: "Foxtrot",
-    choices: ["Foxtrot", "Fire", "Foret", "Fjord"],
+    choices: randomize(["Foxtrot", "Fire", "Foret", "Fjord"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - G",
     solution: "Golf",
-    choices: ["Golf", "Gamma", "Girafe", "Guitar"],
+    choices: randomize(["Golf", "Gamma", "Girafe", "Guitar"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - H",
     solution: "Hotel",
-    choices: ["Hotel", "Horizon", "Hopital", "Hubert"],
+    choices: randomize(["Hotel", "Horizon", "Hopital", "Hubert"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - I",
     solution: "India",
-    choices: ["India", "Iota", "Indigo", "Italy"],
+    choices: randomize(["India", "Iota", "Indigo", "Italy"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - J",
     solution: "Juliett",
-    choices: ["Juliett", "Jus", "Jews", "Jupiter"],
+    choices: randomize(["Juliett", "Jus", "Jews", "Jupiter"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - K",
     solution: "Kilo",
-    choices: ["Kilo", "Koala", "Karma", "Kronos"],
+    choices: randomize(["Kilo", "Koala", "Karma", "Kronos"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - L",
     solution: "Lima",
-    choices: ["Lima", "Lion", "Light", "Lambda"],
+    choices: randomize(["Lima", "Lion", "Light", "Lambda"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - M",
     solution: "Mike",
-    choices: ["Mike", "Maman", "Micron", "Meter"],
+    choices: randomize(["Mike", "Maman", "Micron", "Meter"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - N",
     solution: "November",
-    choices: ["November", "Noel", "Nuage", "Noeud"],
+    choices: randomize(["November", "Noel", "Nuage", "Noeud"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - O",
     solution: "Oscar",
-    choices: ["Oscar", "Origin", "Omega", "October"],
+    choices: randomize(["Oscar", "Origin", "Omega", "October"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - P",
     solution: "Papa",
-    choices: ["Papa", "Patrick", "Pi", "Pinguin"],
+    choices: randomize(["Papa", "Patrick", "Pi", "Pinguin"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - Q",
     solution: "Quebec",
-    choices: ["Quebec", "Quinoa", "Quentin", "Quantity"],
+    choices: randomize(["Quebec", "Quinoa", "Quentin", "Quantity"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - R",
     solution: "Roméo",
-    choices: ["Roméo", "River", "Red", "Root"],
+    choices: randomize(["Roméo", "River", "Red", "Root"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - S",
     solution: "Sierra",
-    choices: ["Sierra", "Sigma", "Sample", "Samba"],
+    choices: randomize(["Sierra", "Sigma", "Sample", "Samba"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - T",
     solution: "Tango",
-    choices: ["Tango", "Trout", "Theta", "Tatcher"],
+    choices: randomize(["Tango", "Trout", "Theta", "Tatcher"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - U",
     solution: "Uniform",
-    choices: ["Uniform", "Unicorn", "Univer", "Uranium"],
+    choices: randomize(["Uniform", "Unicorn", "Univer", "Uranium"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - V",
     solution: "Victor",
-    choices: ["Victor", "Victory", "Velocity", "Viper"],
+    choices: randomize(["Victor", "Victory", "Velocity", "Viper"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - W",
     solution: "Whiskey",
-    choices: ["Whiskey", "Washington", "Wagon", "Wapiti"],
+    choices: randomize(["Whiskey", "Washington", "Wagon", "Wapiti"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - X",
     solution: "X-ray",
-    choices: ["X-ray", "Xavier", "Xylophone", "Xantia"],
+    choices: randomize(["X-ray", "Xavier", "Xylophone", "Xantia"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - Y",
     solution: "Yankee",
-    choices: ["Yankee", "Yaourt", "Yacht", "Yack"],
+    choices: randomize(["Yankee", "Yaourt", "Yacht", "Yack"]),
   },
   {
     type: "text",
     question: "Alphabet phonétique internationnal - Z",
     solution: "Zula",
-    choices: ["Zula", "Zorro", "Zumba", "Zeus"],
+    choices: randomize(["Zula", "Zorro", "Zumba", "Zeus"]),
   },
   {
     type: "text",
@@ -508,15 +499,20 @@ function parseExercices(raw, category, image) {
     }))
 }
 
+function randomize(array) {
+  return array.sort(() => Math.random() - Math.random());
+}
+
 export function getProposedChoices(level) {
   return level.type === "image"
-    ? levels
-        .filter(lvl => lvl !== level && lvl.category === level.category && lvl.solution !== level.solution)
-        .sort(() => Math.random() - Math.random())
+    ? randomize(
+        randomize(
+          levels.filter(lvl => lvl !== level && lvl.type === "image" && lvl.category === level.category && lvl.solution !== level.solution)
+        )
         .slice(0, 3)
         .concat(level)
         .map(lvl => lvl.solution)
-        .sort(() => Math.random() - Math.random())
+    )
     : level.type === "text"
     ? level.choices
     : []
