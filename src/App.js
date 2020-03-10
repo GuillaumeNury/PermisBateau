@@ -6,13 +6,13 @@ import IndexPage from './pages/IndexPage';
 import LevelBuilderPage from './pages/LevelBuilderPage';
 
 function App() {
-  const route = window.location.pathname;
+  const route = window.location.hash.slice(1);
 
   switch (route)
   {
-    case '/challenge': return <ChallengePage />
-    case '/all': return <AllLevelPage />
-    case '/level-builder': return <LevelBuilderPage />
+    case '#/challenge': return <ChallengePage />
+    case '#/all': return <AllLevelPage />
+    case '#/level-builder': return <LevelBuilderPage />
     default: return <IndexPage />
   }
 }
