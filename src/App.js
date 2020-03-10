@@ -10,9 +10,9 @@ function App() {
 
   switch (route)
   {
-    case '#/challenge': return <ChallengePage />
-    case '#/all': return <AllLevelPage />
-    case '#/level-builder': return <LevelBuilderPage />
+    case '/challenge': return <ChallengePage />
+    case '/all': return <AllLevelPage />
+    case '/level-builder': return <LevelBuilderPage />
     default: return <IndexPage />
   }
 }
