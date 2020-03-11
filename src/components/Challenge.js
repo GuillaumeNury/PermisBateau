@@ -1,4 +1,10 @@
-import React from "react"
+import React from "react";
+
+const Layout = ({ children }) => (
+  <div className="card" style={{ margin: "auto", padding: "2rem 1rem" }}>
+    {children}
+  </div>
+);
 
 const ImageChallenge = ({
   category,
@@ -9,7 +15,7 @@ const ImageChallenge = ({
   children,
 }) => {
   return (
-    <div>
+    <Layout>
       <div
         style={{
           margin: "1rem auto 2rem auto",
@@ -23,18 +29,18 @@ const ImageChallenge = ({
         <b>{category}</b>
       </div>
       {children}
-    </div>
+    </Layout>
   )
 }
 
 const TextChallenge = ({ question, children }) => {
   return (
-    <div>
-      <div style={{ textAlign: "center" }}>
+    <Layout>
+      <div style={{ textAlign: "center", marginBottom: "2rem" }}>
         <b>{question}</b>
       </div>
       <div>{children}</div>
-    </div>
+    </Layout>
   )
 }
 
