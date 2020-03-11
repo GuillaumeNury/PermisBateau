@@ -546,19 +546,29 @@ function randomize(array) {
   return array.sort(() => Math.random() - Math.random());
 }
 
+function removeDuplicates(array) {
+  return Array.from(new Set(array));
+}
+
 export function getProposedChoices(level) {
-  return level.type === "image"
-    ? randomize(
-        randomize(
-          levels.filter(lvl => lvl !== level && lvl.type === "image" && lvl.category === level.category && lvl.solution !== level.solution)
-        )
-        .slice(0, 3)
-        .concat(level)
-        .map(lvl => lvl.solution)
+  if (level.type === "text") return level.choices;
+
+  return randomize(
+    randomize(
+      removeDuplicates(
+        levels
+          .filter(
+            lvl => lvl !== level
+              && lvl.type === "image"
+              && lvl.category === level.category
+              && lvl.solution !== level.solution
+          )
+          .map(lvl => lvl.solution)
+      )
     )
-    : level.type === "text"
-    ? level.choices
-    : []
+    .slice(0, 3)
+    .concat(level.solution)
+  );
 }
 
 export const levelsByCategory = levels.reduce(
