@@ -97,6 +97,7 @@ export default class ChallengePage extends React.Component {
       return challengeConfig
         ? (
           <div>
+            <progress value={currentLevel} max={levelsToChallenge.length} className="primary" style={{ margin: 0, width: "100%" }}></progress>
             <ChallengeStats
               index={currentLevel}
               correctLevels={correctLevels}
