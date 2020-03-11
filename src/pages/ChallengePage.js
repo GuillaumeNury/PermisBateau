@@ -107,7 +107,7 @@ export default class ChallengePage extends React.Component {
                 <Challenge level={level}>
                   {currentLevelChoices.map((choice, idx) => (
                     <button
-                      key={idx}
+                      key={currentLevel + "-" + idx}
                       style={{
                         display: "block",
                         marginLeft: "auto",
