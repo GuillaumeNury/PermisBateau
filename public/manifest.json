@@ -23,7 +23,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "#/challenge",
+  "start_url": "/#/challenge",
   "display": "fullscreen",
   "orientation": "portrait",
   "theme_color": "#000000",
